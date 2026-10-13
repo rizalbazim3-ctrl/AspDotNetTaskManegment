@@ -35,3 +35,13 @@ C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\obj\Debug\net10.0\refin
 C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\obj\Debug\net10.0\TaskList.pdb
 C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\obj\Debug\net10.0\TaskList.genruntimeconfig.cache
 C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\obj\Debug\net10.0\ref\TaskList.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\obj\Debug\net10.0\TaskList.sourcelink.json
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\practicingArea\DotNet(c#)\SampleProject\SampleProject\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

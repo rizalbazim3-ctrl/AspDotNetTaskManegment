@@ -6,25 +6,39 @@ namespace TaskList.Services
     {
         public static List<TaskItems> taskItems = new List<TaskItems>();
 
+        public List<TaskItems> getTask()
+        {
+            return taskItems;
+        }
+
         public void addTask(TaskItems data)
         {
             taskItems.Add(data);
         }
-        public void editTask(TaskItems data, int id)
+        public bool editTask(TaskItems data, int id)
+        {
+            var item = taskItems.FirstOrDefault(x => x.Id == id);
+            if (item == null)
+            {
+                return false;
+            }
+            item.Title = data.Title;
+            item.Description = data.Description;
+            item.Status = data.Status;
+
+            return true;
+        }
+        public bool deleteTask(int id)
         {
             var item = taskItems.FirstOrDefault(x => x.Id == id);
             if (item != null)
             {
-                item.Id = data.Id;
-                item.Title = data.Title;
-                item.Description = data.Description;
-                item.Status = data.Status;
-
+                taskItems.Remove(item);
+                return true;
             }
-        }
-        public void deleteTask(int id)
-        {
-            taskItems.RemoveAll(x => x.Id == id);
+
+            return false;
+            
         }
     }
 }
